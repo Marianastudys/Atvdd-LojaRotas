@@ -10,7 +10,7 @@ const produtos = [
     "marca": "Samsung",
     "descricao": "Smartphone com tela Super AMOLED de 6,6 polegadas, 128 GB de armazenamento e câmera de alta resolução.",
     "preco": 1999.90,
-    "foto": "https://exemplo.com/fotos/galaxy-a55.jpg",
+    "foto": "https://i.zst.com.br/thumbs/12/3d/33/-1239604765.jpg",
     "quantidade": 15
   },
   {
@@ -19,7 +19,7 @@ const produtos = [
     "marca": "Lenovo",
     "descricao": "Notebook com processador Intel Core i5, 8 GB de RAM e SSD de 256 GB.",
     "preco": 3299.00,
-    "foto": "https://exemplo.com/fotos/ideapad-3.jpg",
+    "foto": "https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MjM0NDM3fGltYWdlL3BuZ3xoYzQvaDc0LzE0MDgwNDczODU4MDc4LnBuZ3w0NTU3MDkzMDU0NTFkOGE0MWJlZDMxODMzNjQxMWE4ZGVmZjEwM2ZlMmNhYjVhNTZmZWE4NTU2MmEzNTBkYTgw/lenovo-laptop-ideapad-3-gen-6-15-amd-subseries-hero.png?width=584&height=584",
     "quantidade": 8
   },
   {
@@ -28,7 +28,7 @@ const produtos = [
     "marca": "JBL",
     "descricao": "Fone sem fio com conexão Bluetooth, microfone integrado e bateria de longa duração.",
     "preco": 249.90,
-    "foto": "https://exemplo.com/fotos/fone-jbl.jpg",
+    "foto": "https://m.media-amazon.com/images/I/51olNZRjn+L._AC_SX425_.jpgs",
     "quantidade": 32
   },
   {
@@ -37,7 +37,7 @@ const produtos = [
     "marca": "LG",
     "descricao": "Smart TV 4K UHD com sistema webOS, Wi-Fi integrado e suporte a aplicativos de streaming.",
     "preco": 2799.90,
-    "foto": "https://exemplo.com/fotos/smart-tv-lg.jpg",
+    "foto": "https://m.media-amazon.com/images/I/61eRNyixEfL._AC_SX425_.jpg",
     "quantidade": 6
   },
   {
@@ -46,7 +46,7 @@ const produtos = [
     "marca": "Logitech",
     "descricao": "Mouse óptico sem fio com conexão USB, design ergonômico e alta precisão.",
     "preco": 99.90,
-    "foto": "https://exemplo.com/fotos/mouse-logitech.jpg",
+    "foto": "https://m.media-amazon.com/images/I/61cZLujzS3L._AC_SX569_.jpg",
     "quantidade": 45
   }
 ]
