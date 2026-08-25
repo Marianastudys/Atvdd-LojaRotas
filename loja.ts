@@ -60,12 +60,19 @@ app.get('/produtos', (req: Request, res: Response) => {
 });
 
 app.get('/produtos/:id', (req: Request, res: Response) => {
-  const id = +req.params.id; //Pega o parâmetro
-  if (produtos && produtos.length > 0) {
-    const prod = produtos.find(p => p.id === id);
-    res.json(prod);
+
+  const id = +req.params.id;
+
+  const produto = produtos.find(p => p.id === id);
+
+  if (produto) {
+    res.json(produto);
+  } else {
+    res.status(404).json({
+      mensagem: "Produto não encontrado"
+    });
   }
-  res.json([]);
+
 });
 
 app.listen(3000, () => {
