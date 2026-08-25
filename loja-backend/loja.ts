@@ -4,13 +4,7 @@ import express, {
   type Response
 } from 'express';
 
-import cors from 'cors';
-
 const app: Express = express();
-
-app.use(cors({
-  origin: 'http://localhost:4200'
-}));
 
 const produtos = [
   {
@@ -85,5 +79,5 @@ app.get('/produtos/:id', (req: Request, res: Response) => {
 });
 
 app.listen(3000, () => {
-    console.log('back-end ok!')
+    console.log('backend ok!')
 });
