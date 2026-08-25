@@ -1,7 +1,16 @@
-import express, { type Express, type Request, 
-                  type Response } from 'express';
+import express, {
+  type Express,
+  type Request,
+  type Response
+} from 'express';
+
+import cors from 'cors';
 
 const app: Express = express();
+
+app.use(cors({
+  origin: 'http://localhost:4200'
+}));
 
 const produtos = [
   {
@@ -28,7 +37,7 @@ const produtos = [
     "marca": "JBL",
     "descricao": "Fone sem fio com conexão Bluetooth, microfone integrado e bateria de longa duração.",
     "preco": 249.90,
-    "foto": "https://m.media-amazon.com/images/I/51olNZRjn+L._AC_SX425_.jpgs",
+    "foto": "https://cdn.awsli.com.br/600x1000/1761/1761248/produto/253438439/wave-buds2-pmh8xvpefr.jpg",
     "quantidade": 32
   },
   {
